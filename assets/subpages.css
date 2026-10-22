@@ -1,0 +1,29 @@
+/* AIBrain responsive corporate subpage system */
+.subpage{background:#fff;color:#171717}
+.subpage .header{position:relative}
+.subpage .desktop-links{gap:22px}
+.subpage .desktop-links a{font-size:13px}
+.subhero{padding:100px 0 94px;background:linear-gradient(130deg,#fff 35%,#f4f4f4)}
+.subhero .kicker{color:#b52427}
+.subhero h1{font-size:clamp(45px,6vw,82px);line-height:1.07;letter-spacing:-.065em;max-width:1050px;margin:20px 0 28px;color:#161616}
+.subhero h1 em{font-style:normal;color:#b52427}
+.sublead{max-width:740px;color:#505050;font-size:clamp(17px,1.7vw,21px);line-height:1.7}
+.subbody{padding:76px 0 100px;background:#f7f7f7}
+.subgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.subcard{background:white;border:1px solid #e6e6e6;border-radius:18px;padding:32px;display:flex;flex-direction:column;min-height:395px;box-shadow:0 12px 32px #00000007}
+.card-index{font-size:12px;font-weight:800;color:#b52427;letter-spacing:.1em}
+.subcard>div{display:flex;flex-direction:column;flex:1}
+.subcard-label{text-transform:uppercase;color:#8e2528;font-size:12px;font-weight:750;letter-spacing:.08em;margin:24px 0 12px}
+.subcard h2{font-size:clamp(23px,2.5vw,31px);color:#191919;letter-spacing:-.04em;margin-bottom:16px}
+.subcard p:not(.subcard-label){color:#555;font-size:15px;line-height:1.75}
+.subcta{color:#ad252b;text-decoration:none;font-size:14px;font-weight:750;margin-top:auto;padding-top:20px}
+.subcta:hover{text-decoration:underline}
+.subcontact{background:#191919;color:#fff;padding:65px 0}
+.subcontact-inner{display:flex;justify-content:space-between;align-items:center;gap:32px}
+.subcontact h2{color:white;font-size:clamp(29px,3vw,43px);margin:0}
+.subcontact .kicker{color:#ff979a}
+.subcontact-button{flex:none;text-decoration:none;background:#b52427;color:white;border-radius:8px;padding:16px 23px;font-weight:750}
+.subcontact-button:hover{background:#901b20}
+@media(max-width:900px){.subgrid{grid-template-columns:1fr 1fr}.subpage .desktop-links{gap:13px}}
+@media(max-width:800px){.subgrid{grid-template-columns:1fr 1fr}.subhero{padding:72px 0}.subbody{padding:60px 0}.subpage .desktop-links{display:none}}
+@media(max-width:620px){.subgrid{grid-template-columns:1fr}.subcard{min-height:0;padding:26px}.subhero{padding:60px 0}.subcontact-inner{display:block}.subcontact-button{display:inline-block;margin-top:25px}}
