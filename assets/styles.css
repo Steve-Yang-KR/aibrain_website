@@ -102,9 +102,3 @@
   .brand-logo{width:145px}
   .footer-brand .brand-logo{width:150px}
 }
-
-/* Keep the corporate hero message on exactly two intentional lines. */
-.hero #hero-title{font-size:clamp(21px,3.25vw,47px);letter-spacing:-.048em;max-width:none}
-.hero #hero-title .hero-title-line{display:block;white-space:nowrap;color:#171717}
-.hero #hero-title .hero-title-accent{color:#b52427}
-@media(max-width:800px){.hero #hero-title{font-size:clamp(20px,5vw,43px)}}
