@@ -16,3 +16,89 @@
 .brand-logo{display:block;width:230px;max-width:100%;height:auto;aspect-ratio:933 / 286;object-fit:contain}
 .footer-brand .brand-logo{width:220px}
 @media(max-width:620px){.brand{padding:5px 8px}.brand-logo{width:175px}.footer-brand .brand-logo{width:205px}}
+
+/* AIBrain corporate palette refresh — October 2026 */
+:root{
+  --dark:#151515;--dark2:#242424;--ink:#171717;--muted:#646464;
+  --mint:#b52427;--mint2:#9f1f25;--paper:#f7f7f7;--rule:#e4e4e4;
+}
+/* Corporate red #b52427, black #111111 and white. */
+.header{background:#fff;color:#111;border-bottom:1px solid #e7e7e7}
+.header-inner{height:74px}
+.header .brand,.footer .brand{background:transparent;border:0;border-radius:0;padding:0}
+.brand-logo{width:175px;height:auto;aspect-ratio:933/286;object-fit:contain}
+.footer-brand .brand-logo{width:160px}
+.desktop-links a{color:#242424}
+.desktop-links a:hover,.footer-nav a:hover{color:#b52427}
+.desktop-links .nav-contact{border:1px solid #b52427;color:#b52427}
+.desktop-links .nav-contact:hover{background:#b52427;color:#fff}
+.mobile-menu>summary{border-color:#ddd;color:#171717}
+.mobile-menu nav{background:#fff;border-color:#e5e5e5;box-shadow:0 16px 32px #0002}
+.mobile-menu nav a{color:#171717;border-bottom-color:#eaeaea}
+.hero{background:radial-gradient(circle at 80% 38%,#fff 0%,#f6f6f6 50%,#ececec 100%);color:#141414}
+.hero h1{color:#111}
+.hero h1 span{color:#b52427}
+.eyebrow{color:#9c2026}
+.glow{background:#b52427;box-shadow:0 0 0 4px #b5242720}
+.hero-description{color:#4a4a4a}
+.hero-footnote{color:#666}
+.dot{color:#b52427}
+.button-mint{background:#b52427;color:#fff}
+.button-mint:hover{background:#961e23}
+.button-line{border:1px solid #a7a7a7;color:#1e1e1e}
+.button-line:hover{border-color:#b52427;color:#b52427}
+.hero-visual{color:#fff}
+.orbit-one{border-color:#b5242766}
+.orbit-two{border-color:#b5242733}
+.hub{background:radial-gradient(circle at 36% 30%,#454545,#181818 75%);box-shadow:0 0 0 1px #b5242770,0 22px 64px #0002}
+.hub-small{color:#eee}
+.hub strong span{color:#ef575b}
+.hub small{color:#ddd}
+.tech-label{background:#292929;border-color:#555;color:#fff}
+.hero-corner-label{color:#a42429}
+.section-light{background:#f7f7f7}
+.section h2,.section h3{letter-spacing:-.045em}
+.section-light h2,.section-about h2{color:#171717}
+.kicker,.category{color:#b52427}
+.section-subcopy,.solution-content p,.about-copy>p{color:#595959}
+.sports-graphic{background:linear-gradient(150deg,#343434,#8a2024)}
+.pitch{border-color:#fff7}.pitch-line{background:#fff6}.center-circle,.pitch-box{border-color:#fff6}
+.player{background:#fff;box-shadow:0 0 0 6px #fff3}
+.data-chip{background:#201010ca;border-color:#fff6}
+.clinical-graphic{background:radial-gradient(circle at 50% 48%,#fff,#e8e8e8)}
+.clinical-ring{border-color:#b5242740}
+.clinical-center{background:#fff;color:#a22127;box-shadow:0 12px 44px #0002}
+.clinical-icon{color:#b52427}
+.clinical-tag{background:#fffd;border-color:#ddd;color:#a22127}
+.active{background:#f9e4e5;color:#9d2025}
+.emerging{background:#eee;color:#595959}
+.text-link,.research-link>a{color:#aa2228}
+.section-navy{background:#171717;color:#fff}
+.section-navy h2,.section-navy h3{color:#fff}
+.kicker.teal{color:#f06c70}
+.tech-copy p:not(.kicker){color:#d0d0d0}
+.inline-light-link{color:#ff9699}
+.capability-list{border-top-color:#505050}
+.capability-list>div{border-bottom-color:#505050}
+.capability-list>div>span{color:#ff9699}
+.capability-list p{color:#bbb}
+.research-link{background:#fafafa;border-color:#e4e4e4}
+.research-icon{background:#fae5e5;color:#a72228}
+.section-contact{background:#f2f2f2;color:#171717}
+.section-contact h2{color:#171717}
+.section-contact .kicker.teal{color:#b52427}
+.contact-grid>div>p:not(.kicker){color:#5d5d5d}
+.contact-box{background:#fff;border-color:#dedede}
+.contact-box p{color:#666}
+.contact-box a,.contact-box .email-link{color:#ad2329}
+.contact-divider{border-top-color:#e7e7e7}
+.contact-footnote{color:#666}
+.footer{background:#fff;color:#171717;border-top:1px solid #e6e6e6}
+.footer-grid p,.footer-bottom{color:#686868}
+.footer-nav a{color:#363636}
+.footer-bottom{border-top-color:#e9e9e9}
+@media(max-width:620px){
+  .header-inner{height:66px}
+  .brand-logo{width:145px}
+  .footer-brand .brand-logo{width:150px}
+}
