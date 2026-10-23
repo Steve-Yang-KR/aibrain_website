@@ -102,3 +102,6 @@
   .brand-logo{width:145px}
   .footer-brand .brand-logo{width:150px}
 }
+
+/* Requested hero headline font size. */
+.hero #hero-title{font-size:3.2em!important;}
